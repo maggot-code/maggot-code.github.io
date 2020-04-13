@@ -51,9 +51,9 @@
       
         <tags>
             
-            <tag> Git </tag>
-            
             <tag> 自用 </tag>
+            
+            <tag> Git </tag>
             
         </tags>
       
@@ -80,9 +80,9 @@
       
         <tags>
             
-            <tag> Git </tag>
-            
             <tag> 自用 </tag>
+            
+            <tag> Git </tag>
             
         </tags>
       
@@ -98,6 +98,64 @@
         <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><a id="more"></a><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
       
       
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>HTML-如何理解标签语义化</title>
+      <link href="/2019/06/22/HTML-%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3%E6%A0%87%E7%AD%BE%E8%AF%AD%E4%B9%89%E5%8C%96/"/>
+      <url>/2019/06/22/HTML-%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3%E6%A0%87%E7%AD%BE%E8%AF%AD%E4%B9%89%E5%8C%96/</url>
+      
+        <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><ol><li>为了代码结构足够清晰，方便阅读，有利于多人合作的开发；</li><li>方便各种设备和爬虫解析（例如屏幕阅读器，盲人阅读器，移动设备）通过更加语义的方式来渲染页面；</li><li>有利于搜索引擎的优化（SEO）</li><li>在CSS加载慢或加载失败的情况下利于页面布局的展示；</li></ol><a id="more"></a><h2 id="常见的语义化标签："><a href="#常见的语义化标签：" class="headerlink" title="常见的语义化标签："></a>常见的语义化标签：</h2><ul><li><code>title</code>：页面主体内容</li><li><code>h*</code>：从<code>h1~h6</code>分级标题</li><li><code>ul</code>：无序列表</li><li><code>ol</code>：有序列表</li><li><code>nav</code>：导航标签</li><li><code>main</code>：页面主要内容，一个页面最好只使用一次</li><li><code>article</code>：定义外部内容，其中内容独立于文档其他部分</li><li><code>section</code>：定义文档中的节，例如章节、页眉、页脚等等</li><li><code>aside</code>：定义当前内容之外的内。例如侧边栏、一组文章链接、广告、友情链接、相关产品链接等等</li><li><code>footer</code>：页脚，只有父级是<code>body</code>的时候，才能作为整个页面的页脚存在</li><li><code>em</code>：将文本表示为强调的内容</li><li><code>mark</code>：表示突出文本</li><li><code>figure</code>：独立的流内容，图片、图表、照片、代码等等</li><li><code>time</code>：标记文本为日志或时间格式</li><li><code>address</code>：作者、相关人士或组织的联系信息</li><li><code>code</code>：标记代码</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 笔记 </category>
+          
+          <category> 面试 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> HTML </tag>
+            
+            <tag> 自用 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>HTML-html5新特性</title>
+      <link href="/2019/06/22/HTML-html5%E6%96%B0%E7%89%B9%E6%80%A7/"/>
+      <url>/2019/06/22/HTML-html5%E6%96%B0%E7%89%B9%E6%80%A7/</url>
+      
+        <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p><strong>HTML5</strong>是<code>html</code>标准的增加和更新，包含了一些新的元素标签，属性以及行为事件；</p><p>是为了让Web站点和移动应用更加多样化，功能更加强大的表现；</p><p><strong>HTML5</strong>是这一整套技术更新的统称！</p><a id="more"></a><h2 id="新特性："><a href="#新特性：" class="headerlink" title="新特性："></a>新特性：</h2><ol><li>增加了更多语义化明确的标签，例如<code>header footer nav section article</code>等等；</li><li>离线存储，<code>localStorage 和 sessionStroage</code></li><li>多媒体特性，用于媒体的<code>video 和 audio</code>元素</li><li>图像特性，用于绘制图像的<code>canvas 和 svg</code>元素</li><li>设备访问特性，开放了应用接入开发的接口，像<strong>地理定位</strong>、<strong>拖放API</strong>等等</li><li>连接新特性，主要是<code>WebSocket</code></li><li>性能与集成的特性，用于帮助Web应用或网站可以在更多样的环境中更快速高效的工作</li><li>增强了表单属性</li></ol><h2 id="语义化标签可以查看上一篇文章"><a href="#语义化标签可以查看上一篇文章" class="headerlink" title="语义化标签可以查看上一篇文章"></a>语义化标签可以查看上一篇文章</h2><h2 id="离线存储"><a href="#离线存储" class="headerlink" title="离线存储"></a>离线存储</h2><blockquote><p>HTML5离线存储包含了<strong>应用程序缓存</strong>，<strong>本地存储</strong>，<strong>文件接口</strong></p></blockquote><h3 id="一、应用程序缓存Application-Cache"><a href="#一、应用程序缓存Application-Cache" class="headerlink" title="一、应用程序缓存Application Cache"></a>一、应用程序缓存<code>Application Cache</code></h3><blockquote><p>HTML5通过创建<code>cache manifes</code>文件来创建<code>Web</code>应用的离线存储</p><p>方便了<code>Web</code>应用在没有网络连接时的访问浏览</p></blockquote><p><strong>主要带来了三个优势：</strong></p><ul><li>离线浏览：可以在没有网络连接的时候继续使用应用</li><li>速度：通过缓存加载资源更加快速</li><li>减少服务端压力：对于更新较少不频繁的资源可以缓存在本地，减少与服务端的交互</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 笔记 </category>
+          
+          <category> 面试 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> HTML </tag>
+            
+            <tag> 自用 </tag>
+            
+        </tags>
       
     </entry>
     
